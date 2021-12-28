@@ -26,6 +26,10 @@ export default {
       {
         href: 'https://fonts.googleapis.com/css2?family=Itim&display=swap',
         rel: 'stylesheet'
+      },
+      {
+        href: 'https://emoji-css.afeld.me/emoji.css',
+        rel: 'stylesheet'
       }
     ]
   },
