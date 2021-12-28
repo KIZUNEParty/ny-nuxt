@@ -7966,6 +7966,11 @@ sirv@^1.0.7:
     mime "^2.3.1"
     totalist "^1.0.0"
 
+skoy@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/skoy/-/skoy-0.3.1.tgz#5877291b1def70e6ef9097b03b295246737badc6"
+  integrity sha512-PvhwX1BldUDUKeWmN/jt4JJdb8vZ2MC+U+j04dGRTxlSaj6IcDBaBonBOzW/f2q5rn3yirsTwFuo1o5U4Gce6w==
+
 slash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
