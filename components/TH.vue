@@ -8,12 +8,20 @@
             <span class="heading">
                 ถึงไอหมาของเค้า
             </span>
-            <span id="gomburr-text">
-                &nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <span id="fgus-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;ขอบคุณที่ยังอยู่ด้วยกันนะคะ ถึงแม้ว่าเค้าจะงี่เง่าไปบ้าง (จริงๆ ก็ไม่บ้าง) แต่ก็ยังทนอยู่ด้วยกัน รักนะคะ อยู่กับเค้าไปนานๆ นะ ไอหมาของเค้า โฮ่งๆ
             </span>
         </p>
         <p v-else-if="$route.query.name === 'กอมมี่'" class="cont">
-
+            <span class="heading">
+                ถึงคุณกอมมี่บร๋อแบร์น่ารักที่สุดในโลก
+            </span>
+            <br>
+            <span id="gomburr-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;ขอบคุณที่เป็นรอยยิ้มให้กับใครหลายๆ คนนะครับ ถึงแม้ว่าจะมีเรื่องแย่ๆ ในชีวิตของคุณกอมเองก็ตาม ขอให้หายป่วยเร็วๆ แล้วก็ขอให้ติดในมหาลัยที่หวังนะครับ <i class="em em-wink"></i>
+            </span>
+            <img src="https://scontent.fbkk23-1.fna.fbcdn.net/v/t39.30808-6/185524019_164188712437203_2090336010499463669_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeFefEwO3g1rEjVCEc1R4x1cZCiLM94t2LFkKIsz3i3YsQd9OCDeTbxB7dh7iQZiJCkCfngwT12Zzn2h3My1Y9jE&_nc_ohc=bQc2tNeVvGsAX_jGnNq&_nc_ht=scontent.fbkk23-1.fna&oh=00_AT97wnDtus320WakQ4qQyQXlRmpMcpf2RK-l2useZfg_4A&oe=61CFB5FC" alt="gomburr" class="gomburr">
         </p>
         <p v-else class="cont">
             <span class="heading">
