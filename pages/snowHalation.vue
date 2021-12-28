@@ -18,9 +18,7 @@
                     </div>
                 </div>
                 <div v-else-if="$route.query.lang === 'en'">
-                    <h1>
-                        Dear {{ $route.query.name }}
-                    </h1>
+                    <EN />
                     <br><br><br>
                     <div class="myEP">
                         <span>อ๋อ แล้วก็ขอฝากเพลงไว้ในอ้อมอกอ้อมใจด้วยนะครับ <i class="em em-pleading_face"></i></span>
