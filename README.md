@@ -1,4 +1,4 @@
-# th-web
+# ny-nuxt
 
 ## Build Setup
 
