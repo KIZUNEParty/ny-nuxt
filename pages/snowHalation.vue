@@ -21,7 +21,7 @@
                     <EN />
                     <br><br><br>
                     <div class="myEP">
-                        <span>อ๋อ แล้วก็ขอฝากเพลงไว้ในอ้อมอกอ้อมใจด้วยนะครับ <i class="em em-pleading_face"></i></span>
+                        <span>Oh! PLS don't forget to check my newest EP <i class="em em-pleading_face"></i></span>
                         <br>
                         <br>
                         <Cards />

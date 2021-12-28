@@ -18,8 +18,15 @@
                 ถึงคุณกอมมี่บร๋อแบร์น่ารักที่สุดในโลก
             </span>
             <br>
-            <span id="gomburr-text">
-                &nbsp;&nbsp;&nbsp;&nbsp;ขอบคุณที่เป็นรอยยิ้มให้กับใครหลายๆ คนนะครับ ถึงแม้ว่าจะมีเรื่องแย่ๆ ในชีวิตของคุณกอมเองก็ตาม ขอให้หายป่วยเร็วๆ แล้วก็ขอให้ติดในมหาลัยที่หวังนะครับ <i class="em em-wink"></i>
+            <span class="gomburr-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span v-if="$route.query.toSkoy === 'yes'">
+                    ฆอบคุ๊ลธิ๊ฆ์เป็นรฮญญิ๊ฒหั๊ล์ยกั๊ซ์ผใครหล๊ยๆ ฃ๊ลน๊ครั๊ผ ถึงเเม๊ว๊พ์จ่มริ๊เฬอื่บ์ลงฌ์เเญ่ๆ นั๊บ์ยชิ๊วิฏฆฮงคุ๊บ์ลกอฒเองก่ฏ๊ฒ ฆอหั๊ล์ยห๊ษ์ายป่วญเร็วๆ เร่รฬฬก่ฆอหั๊ล์ยฏิฎนั๊บ์ยบ์ฒห๊ษ์าลัญธิ๊ฆ์หวังน๊ครั๊ผ
+                </span>
+                <span v-else>
+                    ขอบคุณที่เป็นรอยยิ้มให้กับใครหลายๆ คนนะครับ ถึงแม้ว่าจะมีเรื่องแย่ๆ ในชีวิตของคุณกอมเองก็ตาม ขอให้หายป่วยเร็วๆ แล้วก็ขอให้ติดในมหาลัยที่หวังนะครับ
+                </span> 
+                <i class="em em-wink"></i>
             </span>
             <img src="https://scontent.fbkk23-1.fna.fbcdn.net/v/t39.30808-6/185524019_164188712437203_2090336010499463669_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeFefEwO3g1rEjVCEc1R4x1cZCiLM94t2LFkKIsz3i3YsQd9OCDeTbxB7dh7iQZiJCkCfngwT12Zzn2h3My1Y9jE&_nc_ohc=bQc2tNeVvGsAX_jGnNq&_nc_ht=scontent.fbkk23-1.fna&oh=00_AT97wnDtus320WakQ4qQyQXlRmpMcpf2RK-l2useZfg_4A&oe=61CFB5FC" alt="gomburr" class="gomburr">
         </p>
@@ -40,6 +47,7 @@ export default {
     data() {
         return {
             fullYear: 2022,
+            skoyOut: null
         }
     },
     mounted() {
