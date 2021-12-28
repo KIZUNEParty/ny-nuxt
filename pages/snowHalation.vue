@@ -5,9 +5,14 @@
                 <div v-if="$route.query.lang === 'th'">
                     <TH />
                 </div>
-                <div v-if="$route.query.lang === 'en'">
+                <div v-else-if="$route.query.lang === 'en'">
                     <h1>
                         Dear {{ $route.query.name }}
+                    </h1>
+                </div>
+                <div v-else>
+                    <h1 style="text-align: center !important;">
+                        Just a Landing!
                     </h1>
                 </div>
             </div>
