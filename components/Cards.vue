@@ -9,7 +9,7 @@
                     <h5 class="card-title">Colorful Illusion</h5>
                     <p class="card-text">katsuragi.wav</p>
                     <p class="card-text">
-                        <a href="https://katsuragi.detzz.in.th/sharing/?id=3">
+                        <a href="https://katsuragi.detzz.in.th/sharing/?id=3" target="_blank">
                             <button class="btn btn-primary">
                                 Link
                             </button>
