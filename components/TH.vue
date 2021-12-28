@@ -1,31 +1,29 @@
 <template>
     <div class="thai">
         <head>
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
             <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
         </head>
 
         <p v-if="$route.query.name === 'โฟกัด'" class="cont">
-            ถึงไอหมาของเค้า
+            <span class="heading">
+                ถึงไอหมาของเค้า
+            </span>
+            <span id="gomburr-text">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+        </p>
+        <p v-else-if="$route.query.name === 'กอมมี่'" class="cont">
+
         </p>
         <p v-else class="cont">
             <span class="heading">
                 ถึงคุณ {{ $route.query.name }}
             </span>
             <br>
-            <span id="wishing-text">
-                คนที่ได้อ่านข้อความนี้ ถึงแม้ว่าจะช้าไปหน่อยที่ผมจะมา Merry Christmas ทุกคน แต่ก็สุขสันต์วันปีใหม่นะครับ ขอให้มีความสุขในปี {{ fullYear }} ที่กำลังจะมาถึงนี้นะครับ ขอให้เวลาทำอะไรๆ ก็ดีไปหมดทุกอย่างเลยยย แล้วก็ขอให้รอดจากไอประเทศเส็งเคร็งนี่นะครับ สวัสดีครับ <i class="em em-wink"></i> <i class="em em-smiley"></i>
+            <span id="wText">
+                &nbsp;&nbsp;&nbsp;&nbsp;คนที่ได้อ่านข้อความนี้ ถึงแม้ว่าจะช้าไปหน่อยที่ผมจะมา Merry Christmas ทุกคน แต่ก็สุขสันต์วันปีใหม่นะครับ ขอให้มีความสุขในปี {{ fullYear }} ที่กำลังจะมาถึงนี้นะครับ ขอให้เวลาทำอะไรๆ ก็ดีไปหมดทุกอย่างเลยยย แล้วก็ขอให้รอดจากไอประเทศเส็งเคร็งนี่นะครับ สวัสดีครับ <i class="em em-wink"></i> <i class="em em-smiley"></i>
             </span>
         </p>
-        <br><br><br>
-        <div class="myEP">
-            <span>อ๋อ แล้วก็ขอฝากเพลงไว้ในอ้อมอกอ้อมใจด้วยนะครับ <i class="em em-pleading_face"></i></span>
-            <br>
-            <br>
-            <Cards />
-        </div>
     </div>
 </template>
 
