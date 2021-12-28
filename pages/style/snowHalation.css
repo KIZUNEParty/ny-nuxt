@@ -1,0 +1,49 @@
+body, a, h1, h2, h3, h4, h5, span, p, div {
+    font-family: 'Itim', cursive;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hover {
+    width: 100%;
+    height:100vh;
+
+    background: url(https://hny2021.detzz.in.th/bg.png);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.black {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+}
+
+.centerize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    text-align: left !important;
+    padding: 1rem;
+    width: 80%;
+}
+
+.thai h1 {
+    font-size: 40px;
+}
+
+.thai .cont {
+    font-size: 22px;
+}
+
+.myEP {
+    text-align: right;
+}
