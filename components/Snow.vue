@@ -24,18 +24,6 @@
         <div class="snowflake">
         ❅
         </div>
-        <div class="snowflake">
-        ❆
-        </div>
-        <div class="snowflake">
-        ❄
-        </div>
-        <div class="snowflake">
-        ❄
-        </div>
-        <div class="snowflake">
-        ❄
-        </div>
     </div>
     <!-- Thx to https://codepen.io/codeconvey/pen/xRzQay -->
 </template>
