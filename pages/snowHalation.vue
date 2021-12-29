@@ -35,7 +35,7 @@
             </div>
         </div>
         <Footer />
-        <Snow />
+        <!-- <Snow /> -->
     </div>
 </template>
 
