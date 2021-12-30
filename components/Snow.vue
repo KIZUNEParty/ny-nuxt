@@ -1,4 +1,4 @@
-<template>
+<template>    
     <div class="snowflakes" aria-hidden="true">
         <div class="snowflake">
         ❅
@@ -23,6 +23,12 @@
         </div>
         <div class="snowflake">
         ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
         </div>
     </div>
     <!-- Thx to https://codepen.io/codeconvey/pen/xRzQay -->
