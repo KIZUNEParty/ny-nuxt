@@ -36,7 +36,6 @@
             </div>
         </div>
         <Footer />
-        <!-- <Snow /> -->
     </div>
 </template>
 
