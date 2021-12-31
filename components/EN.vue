@@ -1,11 +1,29 @@
 <template>
     <div class="eng">
-        <span class="heading">
-            Dear {{ $route.query.name }}
-        </span>
-        <br>
-        <span id="wText">
-            &nbsp;&nbsp;&nbsp;&nbsp;คนที่ได้อ่านข้อความนี้ ถึงแม้ว่าจะช้าไปหน่อยที่ผมจะมา Merry Christmas ทุกคน แต่ก็สุขสันต์วันปีใหม่นะครับ ขอให้มีความสุขในปี {{ fullYear }} ที่กำลังจะมาถึงนี้นะครับ ขอให้เวลาทำอะไรๆ ก็ดีไปหมดทุกอย่างเลยยย แล้วก็ขอให้รอดจากไอประเทศเส็งเคร็งนี่นะครับ สวัสดีครับ <i class="em em-wink"></i> <i class="em em-smiley"></i>
-        </span>
+        <div class="cont">
+                <span class="heading">
+                Dear {{ $route.query.name }}
+            </span>
+            <br>
+            <span id="wText">
+                &nbsp;&nbsp;&nbsp;&nbsp;To the person who is reading this message. I think that it’s too late to say “Merry Christmas” to you but “Happy New Year {{ fullYear }}!!” I’m hoping that this year is the great year for you, hoping that you can do everything that you ever want and hoping that you will survive from this fucking country. So.. Happy New Year!! <i class="em em-wink"></i> <i class="em em-smiley"></i>
+            </span>
+        </div>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            fullYear: 2022,
+            skoyOut: null
+        }
+    },
+    mounted() {
+        const nD = new Date()
+        var fY = nD.getFullYear()
+        this.fullYear = fY + 1
+    }
+}
+</script>
