@@ -8,30 +8,24 @@
         <div class="black centerize">
             <Snow />
             <div class="box">
-                <div v-if="$route.query.lang === 'th'">
+                <div v-if="$route.query.lang === 'th'" class="conto">
                     <TH />
-                    <br><br><br>
-                    <div class="myEP">
-                        <span>อ๋อ แล้วก็ขอฝากเพลงไว้ในอ้อมอกอ้อมใจด้วยนะครับ <i class="em em-pleading_face"></i></span>
-                        <br>
-                        <br>
-                        <Cards />
-                    </div>
                 </div>
-                <div v-else-if="$route.query.lang === 'en'">
+                <div v-else-if="$route.query.lang === 'en'" class="conto">
                     <EN />
-                    <br><br><br>
-                    <div class="myEP">
-                        <span>Oh! PLS don't forget to check my newest EP <i class="em em-pleading_face"></i></span>
-                        <br>
-                        <br>
-                        <Cards />
-                    </div>
                 </div>
                 <div v-else>
                     <h1 style="text-align: center !important;">
                         Just a Landing!
                     </h1>
+                </div>
+                <br><br><br>
+                <div class="myEP">
+                    <span v-if="$route.query.lang === 'th'">อ๋อ แล้วก็ขอฝากเพลงไว้ในอ้อมอกอ้อมใจด้วยนะครับ <i class="em em-pleading_face"></i>&nbsp;</span>
+                    <span v-else-if="$route.query.lang === 'en'">Oh! PLS don't forget to check my newest EP <i class="em em-pleading_face"></i> &nbsp;</span>
+                    <br>
+                    <br>
+                    <Cards />
                 </div>
             </div>
         </div>

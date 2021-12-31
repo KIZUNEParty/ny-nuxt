@@ -48,6 +48,10 @@ body {
     text-align: right;
 }
 
+.cContainer .card {
+    width: 25rem;
+}
+
 .gomburr {
     width: 15%;
     height: auto;
@@ -64,4 +68,28 @@ body {
     width: 100%;
     height: 100vh;
     color: snow;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 100%;
+        padding: 0;
+    }
+
+    .conto {
+        padding: 1rem;
+    }
+
+    .card {
+        width: 18rem !important;
+        height: auto;
+    }
+
+    .myEP {
+        width: 100% !important;
+    }
+
+    .cContainer .card {
+        width: 100% !important;
+    }
 }
