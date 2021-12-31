@@ -81,7 +81,7 @@ body {
     }
 
     .card {
-        width: 18rem !important;
+        width: 18% !important;
         height: auto;
     }
 
@@ -91,5 +91,15 @@ body {
 
     .cContainer .card {
         width: 100% !important;
+    }
+
+    .gomburr {
+        width: 20%;
+        height: auto;
+        border-radius: 1rem;
+        position: absolute !important;
+        top: 1%;
+        right: 40%;
+        left: auto;
     }
 }
