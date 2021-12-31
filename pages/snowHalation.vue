@@ -44,5 +44,40 @@ export default {
         console.log(this.$route.query.name);
         console.log(this.$route.query.lang);
     },
+    head: {
+        title: 'just a random new year web',
+        meta: [
+            {
+                hid: 'og:title',
+                name: 'og:title',
+                content: this.title
+            },
+            {
+                hid: 'og:site_name',
+                name: 'og:site_name',
+                content: this.title
+            },
+            {
+                hid: 'og:type',
+                name: 'og:type',
+                content: 'article'
+            },
+            {
+                hid: 'og:image',
+                name: 'og:image',
+                content: this.index.thumbnail
+            },
+            {
+                hid: 'description',
+                name: 'description',
+                content: this.index.description
+            },
+            {
+                hid: 'author',
+                name: 'author',
+                content: 'Suphakit P.'
+            }
+        ]
+    }
 }
 </script>
