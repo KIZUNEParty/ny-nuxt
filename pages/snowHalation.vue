@@ -66,12 +66,12 @@ export default {
                 {
                     hid: 'og:image',
                     name: 'og:image',
-                    content: this.index.thumbnail
+                    content: ''
                 },
                 {
                     hid: 'description',
                     name: 'description',
-                    content: this.index.description
+                    content: ''
                 },
                 {
                     hid: 'author',

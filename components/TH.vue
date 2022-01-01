@@ -53,7 +53,7 @@ export default {
     mounted() {
         const nD = new Date()
         var fY = nD.getFullYear()
-        this.fullYear = fY + 1
+        this.fullYear = fY
     }
 }
 </script>
